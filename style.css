@@ -22,3 +22,49 @@ body  {
     background-color: #082b5f;
     color: black;
 }
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+.img1{
+    background-image: url("image4.jpeg");
+    min-height: 400px;
+}
+.img2{
+    background-image:url("image5.jpeg") ;
+    min-height: 400px;
+}
+.img3{
+    background-image:url("image6.jpeg");
+    min-height: 400px;
+}
+.img1,.img2,.img3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pText{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.pText .border-trans{
+    background-color: transparent;
+}
+.pText .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
